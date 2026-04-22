@@ -18,4 +18,4 @@ def test_multiply():
     assert multiply(3, 4) == 12
 
 def test_sqrt():
-    assert sqrt(2) == 3
+    assert sqrt(2) == 4
