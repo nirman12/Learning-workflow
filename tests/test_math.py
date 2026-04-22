@@ -1,4 +1,4 @@
-from app.math import add, subtract, divide, multiply
+from app.math import add, subtract, divide, multiply, sqrt
 import pytest
 
 def test_add():
@@ -16,3 +16,6 @@ def test_divide_by_zero():
 
 def test_multiply():
     assert multiply(3, 4) == 12
+
+def test_sqrt():
+    assert sqrt(2) == 3
